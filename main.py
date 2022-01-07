@@ -16,4 +16,4 @@ def upload_files():
       return '<b>file uploaded successfully</b><br><a href="/">Go Back</a>'
 
 if __name__ == '__main__':
-   app.run(port=8080, host='0.0.0.0')
+   app.run(port=8080, host='localhost')
